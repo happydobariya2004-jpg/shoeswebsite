@@ -59,17 +59,17 @@ const Treandingdata = () => {
             </h6> 
 
             <div className="row mt-4 g-2">
-              <div className="col-12 col-md-4">
+              <div className="col-12 col-md-4 col-sm-6">
                 <button 
                   
-                  className="btn btn-dark w-100"
+                  className="btn btn-dark"
                 >
                   Add to Cart
                 </button>
               </div>
 
-              <div className="col-12 col-md-4">
-                <button className="btn btn-warning w-100">
+              <div className="col-12 col-md-4 col-sm-6">
+                <button className="btn btn-warning">
                   Buy Now
                 </button>
               </div>
