@@ -91,13 +91,13 @@ const Foter = () => {
             </div>
             
           ))}
-          <div className="icon gap-2 d-flex mt-5 fs-3 text-light">
-            <i class="fa-brands fa-amazon"></i>
-            <i class="fa-brands fa-google-pay"></i>
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-solid fa-cart-arrow-down"></i>
-            <p className='copy fs-6 mt-2 offset-5 '>@ copyright2024 stylish online store</p>
+          <div className="icon gap-2 d-flex mt-5  ">
+            <input type="" placeholder='Enter your email' />
+            <button className='border bg-dark text-light'>subscribe</button>
+  
+         <p className='copy fs-6 mt-2 offset-5 '>@ copyright2024 stylish online store</p>
           </div>
+          
         </div>
       </div>
     </div>

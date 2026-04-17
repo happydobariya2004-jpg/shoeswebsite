@@ -3,7 +3,8 @@ import Header from '../Header'
 import Foter from '../Foter'
 import { Card } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
-import { allData } from './Alld'
+
+import Aboutdeta from './Aboutdeta'
 
 const Iteam = () => {
 
@@ -18,7 +19,7 @@ const Iteam = () => {
 
       <div className="container">
         <div className="row">
-          {allData.map((v,i) => (
+          {Aboutdeta.map((v,i) => (
             <div className="col-sm-3 col-md-4 col-lg-3  mb-4 text-center" >
               {/* <Card> */}
                 {/* <Card.Img variant="top " src={v.image} /> */}
@@ -26,13 +27,14 @@ const Iteam = () => {
                                   <img src={v.image} alt="" className='img-fluid rounded-4' />
                                 </Link>
                 <Card.Body>
-                 
+                  <p className='text-dark'>{v.brand}</p>
                    <Card.Title className='my-2'>{v.details}</Card.Title>
                     <Card.Title className=''>${v.price}</Card.Title>
                     <Card.Title className='star mb-2' style={{color:"green"}}>{v.rating}</Card.Title>
                    
                    
                   <Link to={`/iteam/${v.id}`}  className='btn btn-success' >View Details </Link>
+                  
                 </Card.Body>
               {/* </Card> */}
             </div>

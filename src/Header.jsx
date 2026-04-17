@@ -25,7 +25,7 @@ const Header = () => {
                                     className='text-dark text-decoration-none fs-6' >Girls</Link></li>
                                 <li className=' list-unstyled'><Link
                                     to={'/Form'}
-                                    className='text-dark text-decoration-none fs-6' >Login</Link></li>
+                                    className='text-dark text-decoration-none fs-6' >Add cart</Link></li>
                             </ul>
                         </div>
                     </div>

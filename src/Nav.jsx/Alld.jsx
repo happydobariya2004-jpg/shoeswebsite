@@ -5,6 +5,7 @@ export const allData = [
     image:"https://themewagon.github.io/stylish/images/card-item1.jpg",
     price:1900,
     details:"casual skate-style sneaker",
+    Brand:"Vans style jaisa lag raha hai (Old Skool type design)",
     rating:"★ ★ ★ ★"
    },
 
@@ -14,6 +15,7 @@ export const allData = [
     image:"https://themewagon.github.io/stylish/images/card-item2.jpg",
     price:1900,
     details:"Nike Air Force sneaker",
+    Brand:"Nike (Air Force 1 inspired look)",
     rating:"★ ★ ★ "
    },
 
@@ -23,6 +25,7 @@ export const allData = [
     image:"https://themewagon.github.io/stylish/images/card-item3.jpg",
     price:1900,
     details:"Nike Running Shoes",
+    Brand:"clearly Nike (Nike Free / running series)",
     rating:"★ ★ ★ ★"
    },
 
@@ -32,6 +35,8 @@ export const allData = [
     image:"https://themewagon.github.io/stylish/images/card-item4.jpg",
     price:1900,
     details:"Nike Air Force 1 sneaker",
+    Brand:"Nike (Air Force style)",
+
     rating:"★ ★ ★ ★"
    },
 
@@ -41,6 +46,7 @@ export const allData = [
     image:"https://themewagon.github.io/stylish/images/card-item5.jpg",
     price:1900,
     details:"Nike Air Max–style sneaker",
+    Brand:"happy",
     rating:"★ ★ ★ ★"
 
    },

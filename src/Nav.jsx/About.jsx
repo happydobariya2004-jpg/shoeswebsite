@@ -17,8 +17,8 @@ const About = () => {
           {allData.map((v, i) => (
             <div className="col-sm-3 col-md-4 col-lg-3 text-center mb-4" >
               
-                <Link to={`/Iteam/${v.id}`}>
-                  <img src={v.image} alt="" className='img-fluid rounded-4' />
+                <Link to={`/About/${v.id}`}>
+                  <img src={v.image} alt="" className='img-fluid rounded-4 ' />
                 </Link>
                 <Card.Body>
 
